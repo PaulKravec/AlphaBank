@@ -29,7 +29,7 @@ public class AlphaBankTest {
     @Test
     void debitCardApplicationInvalidName() {
 
-        $(By.cssSelector("[data-test-id='name'] input")).setValue("234321234321");
+        $(By.cssSelector("[data-test-id='name'] input")).setValue("122121212121");
         $(By.cssSelector("[data-test-id='phone'] input")).setValue("+01234567890");
         $(By.cssSelector("[data-test-id='agreement']")).click();
         $(By.cssSelector("span.button__text")).click();
